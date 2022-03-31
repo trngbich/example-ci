@@ -16,7 +16,7 @@ def test_subtract():
     assert subtract(2, 3) == -1
     
 def multiply(a,b):
-    return a/b
+    return a*b
     
 def test_multiply():
     assert multiply(3,4) == 12
